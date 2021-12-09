@@ -227,7 +227,7 @@
     }
 
     .saizu{
-        width: 15vw;
+        width: 3vw;
         height: auto;
     }
 
@@ -237,7 +237,7 @@
         text-align: center;
         background-color: white;
         border-radius: 10px;
-        height: 400px;
+        /* height: 00px; */
         /* width: 1000px; */
     }
     .waku1{
@@ -247,7 +247,7 @@
         text-align: center;
         background-color: white;
         border-radius: 10px;
-        width: 300px;
+        /* width: 300px; */
     }
     .hin{
         margin: auto;
