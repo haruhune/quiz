@@ -63,6 +63,9 @@
         list-style: none;
         margin: 5px;
     }
+    .p-quiz-commentary{
+        font-size: 30px;
+    }
 
 
 
@@ -112,6 +115,8 @@
         width: 800px;
     }
     .hin{
+        display: block;
+        text-align: center;
         margin: auto;
         background-color: #F2F92C;
         cursor: pointer;
@@ -153,6 +158,7 @@
         border: 2px solid grey;
         border-radius: 0;
         background: rgb(221, 216, 216);
+        margin-top: 5px;
       }
     .c-btn2 {
         display: block;
@@ -238,7 +244,9 @@
     }
 
     .hin{
+        font-size: 20px;
         margin: auto;
+        margin-top: 4px;
         background-color: #F2F92C;
         cursor: pointer;
     }
