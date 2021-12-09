@@ -124,8 +124,8 @@ function register_top_event() {
 // 
 function generate_top_content() {
     var ins = '<div class="p-quiz">'
-    ins += '<img src="quizfont.png" alt="画像">';
-    ins += '<img  src="3mon.png" alt="画像">';
+    ins += '<img class="saizu1" src="quizfont.png" alt="画像">';
+    ins += '<img class="saizu2" src="3mon.png" alt="画像">';
     ins += '<div class="p-quiz-next">';
         ins += '<button class="c-btn2 js-quiz-start">開始</button>';
     ins += '</div>';
@@ -161,7 +161,7 @@ function generate_quiz_content() {
             ins += '</li>';
         }
     ins += '<input class="hin" type="button" value="ヒント" onclick="clickBtn2()">' + '<br>';
-    ins += '<p id="p2"　class="ma-ka">' + quizData['quiz'][currentQuizNo]['hinto'] + '</p>';
+    ins += '<p id="p2" class="ma-ka">' + quizData['quiz'][currentQuizNo]['hinto'] + '</p>';
     ins += '</ol>';
     ins += '</div>';
     ins += '</div>';
