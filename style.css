@@ -233,7 +233,8 @@
 
     .waku{
         display: block;
-        margin: 0;
+        margin: auto;
+        margin-top: 80px;
         text-align: center;
         background-color: white;
         border-radius: 10px;
