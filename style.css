@@ -153,6 +153,7 @@
         border: 2px solid grey;
         border-radius: 0;
         background: rgb(221, 216, 216);
+        list-style: none;
       }
     .c-btn2 {
         display: block;
@@ -171,21 +172,34 @@
         text-align: center;
         margin: auto;
     }
+    .p-quiz-ttl {
+        margin: 0 0 20px;
+        font-size: 25px;
+    }
     .waku{
         background-color: white;
-        border-radius: 10px;
-    }
-    .waku1{
+        border-radius: 10px;display: block;
         background-color: white;
         border-radius: 10px;
+        margin: auto;
+        margin-top: 70px;
+        text-align: center;
+    }
+    .waku1{
+        display: block;
+        background-color: white;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 70px;
+        text-align: center;
     }
     .saizu{
         display: block;
-        width: 70vw;
+        width: 40vw;
         height: auto;
         text-align: center;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 10px;
     }
     .saizu1{
         display: block;
@@ -218,13 +232,25 @@
         width: auto;
     }
 
+    .hin{
+        margin: auto;
+        background-color: #F2F92C;
+        cursor: pointer;
+    }
+
+    #ma-ka{
+        background: linear-gradient(transparent 60%, rgb(255, 164, 217) 0%);
+        display: inline;
+        padding: 0 1px 0px;
+    }
+
     .drawer-hamburger-icon,
     .drawer-hamburger-icon:after,
     .drawer-hamburger-icon:before {
         background-color: #ebdf35;
     }
     #a{
-        font-size: 60px;
+        font-size: 26px;
         font-family: 'Rubik', sans-serif;
         flex: 1;
         position: relative;
