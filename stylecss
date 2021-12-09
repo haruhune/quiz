@@ -1,0 +1,276 @@
+@media screen and (min-width: 481px) {
+    .c-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        outline: none;
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid grey;
+        border-radius: 0;
+        background: #fff;
+      }
+
+      .c-btn:hover {
+        color: #fff;
+        background: #ac0ff5;
+      }
+    .c-btn2 {
+        -webkit-appearance: none;
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        border: none;
+        outline: none;
+        color:  whitesmoke;
+        font-size: 16px;
+        text-decoration: none;
+        background: grey;
+        cursor: pointer;
+    }
+    .p-quiz {
+        width: 600px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .p-quiz-ttl {
+        margin: 0 0 20px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .p-quiz-next {
+        width: 300px;
+        margin: auto;
+    }
+    .p-quiz-choices {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+    }
+    .p-quiz-choices__item {
+        width: calc(50% - 10px);
+        list-style: none;
+        margin: 5px;
+    }
+
+
+
+    /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+    #aka{
+        color: red;
+    }
+    /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #ebdf35;
+        width: auto;
+    }
+
+    .drawer-hamburger-icon,
+    .drawer-hamburger-icon:after,
+    .drawer-hamburger-icon:before {
+        background-color: #ebdf35;
+    }
+
+    .saizu{
+        width: 15vw;
+        height: auto;
+    }
+
+    .waku{
+        display: block;
+        margin: 0;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 400px;
+        /* width: 1000px; */
+    }
+    .waku1{
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        width: 800px;
+    }
+    .hin{
+        margin: auto;
+        background-color: #F2F92C;
+        cursor: pointer;
+    }
+    #ma-ka{
+        background: linear-gradient(transparent 60%, rgb(255, 164, 217) 0%);
+        display: inline;
+        padding: 0 1px 0px;
+    }
+    #a{
+        font-size: 60px;
+        font-family: 'Rubik', sans-serif;
+        flex: 1;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        -webkit-text-fill-color: transparent;
+        background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif");
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+
+    .c-btn {
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        outline: none;
+        font-size: 16px;
+        text-decoration: none;
+        border: 2px solid grey;
+        border-radius: 0;
+        background: #fff;
+      }
+
+      .c-btn:hover {
+        color: #fff;
+        background: #ac0ff5;
+      }
+    .c-btn2 {
+        -webkit-appearance: none;
+        appearance: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        border: none;
+        outline: none;
+        color:  whitesmoke;
+        font-size: 16px;
+        text-decoration: none;
+        background: grey;
+    }
+    .p-quiz {
+        width: 600px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .p-quiz-ttl {
+        margin: 0 0 20px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .p-quiz-next {
+        width: 300px;
+        margin: auto;
+    }
+    .p-quiz-choices {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+    }
+    .p-quiz-choices__item {
+        width: calc(50% - 10px);
+        list-style: none;
+        margin: 5px;
+    }
+
+
+
+    /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+    #aka{
+        color: red;
+    }
+    /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #ebdf35;
+        width: auto;
+    }
+
+    .drawer-hamburger-icon,
+    .drawer-hamburger-icon:after,
+    .drawer-hamburger-icon:before {
+        background-color: #ebdf35;
+    }
+
+    .saizu{
+        width: 15vw;
+        height: auto;
+    }
+
+    .waku{
+        display: block;
+        margin: 0;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        height: 400px;
+        /* width: 1000px; */
+    }
+    .waku1{
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        width: 300px;
+    }
+    .hin{
+        margin: auto;
+        background-color: #F2F92C;
+        cursor: pointer;
+    }
+    #ma-ka{
+        background: linear-gradient(transparent 60%, rgb(255, 164, 217) 0%);
+        display: inline;
+        padding: 0 1px 0px;
+    }
+    #a{
+        font-size: 60px;
+        font-family: 'Rubik', sans-serif;
+        flex: 1;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        -webkit-text-fill-color: transparent;
+        background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif");
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-repeat: no-repeat;
+    }
+
+}
